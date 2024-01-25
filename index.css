@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    margin-right: 10px;
+  }
+  
+  .form input[type="number"] {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .output textarea {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .output button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
