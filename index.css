@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-family: sans-serif;
   }
   
   .form {
@@ -16,6 +17,7 @@
   
   .form label {
     margin-right: 10px;
+    font-size: 22px;
   }
   
   .form input[type="number"] {
@@ -33,10 +35,11 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .output textarea {
-    width: 300px;
-    margin-bottom: 10px;
+
+  #password{
+    width: 200px;
+    height: 30px;
+    font-size: 2rem;
   }
   
   .output button {
@@ -46,4 +49,10 @@
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+  }
+
+  #generate{
+    font-size: 1rem;
+    border-radius:5px;
+    background-color: greenyellow;
   }
